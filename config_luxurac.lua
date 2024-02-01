@@ -92,6 +92,6 @@ getgenv().Configs = {
     LockFPSNow = true,
     WhiteScreen = false
 }
-_G.Key = "LuxuryV2_um8yc9i595pbwgq0g05c"
+_G.Key = "LuxuryV2_"
 _G.DiscordId = "950352396574412820"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NightsTimeZ/RoyryX/main/Loader.lua"))()
