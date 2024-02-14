@@ -4,7 +4,7 @@ getgenv().Configs = {
     FpsBoost = true,
     SkipFarm = true,
     HopIfCantKill = true,
-    BlockAllHop = false,
+    BlockAllHop = true,
 
     FastAttack = true,
     NewFastAttack = true,
@@ -18,32 +18,32 @@ getgenv().Configs = {
     AutoSecondSea = true,
     -- World 2
     AutoRengoku = false,
-    AutoQuestFlower = false,
+    AutoQuestFlower = true,
     AutoRaceV3 = false,
     AutoBartiloQuest = true,
     AutoCursedCaptain = false,
     AutoDarkbeard = true,
     AutoFactory = true,
     AutoThirdSea = true,
-    SkipGetItemGuitar = false, -- จะไม่ หาของทำ soul guiter ในโลก 2 เบบ หาจนกว่าจะได้ will not find item until get all item for do soul guiter ( open recommend เเนะนำให้เปิด )
+    SkipGetItemGuitar =true, -- จะไม่ หาของทำ soul guiter ในโลก 2 เบบ หาจนกว่าจะได้ will not find item until get all item for do soul guiter ( open recommend เเนะนำให้เปิด )
     AlliesFruit = {"Dragon-Dragon","Spirit-Spirit","Venom-Venom","Dough-Dough","Kitsune-Kitsune","T-Rex-T-Rex","Leopard-Leopard","Mammoth-Mammoth"}, -- จะไม่ใช้ผลพวกนี้ในการเปิดประตูไปโลก3
     -- World 3
     AutoHallowScythe = true,
     AutoBuddySword = true,
-    AutoDoughKing = true,
+    AutoDoughKing = false,
     AutoSpikeyTrident = true,
-    AutoTushita = true,
+    AutoTushita = false,
     AutoEliteHunter = true,
-    AutoDarkDagger = true,
-    AutoYama = true,
+    AutoDarkDagger = false,
+    AutoYama = false,
     AutoCanvander = true,
-    AutoSoulGuitar = true, 
-    AutoRainbowHaki = true,
-    AutoCursedDualKatana = true,
+    AutoSoulGuitar = false, 
+    AutoRainbowHaki = false,
+    AutoCursedDualKatana = false,
     
     -- Fighting Style 
     
-    AutoGodHuman = true,
+    AutoGodHuman = false,
     AutoSuperhuman = true,
     AutoDeathStep = true,
     AutoSharkmanKarate = true,
@@ -92,6 +92,6 @@ getgenv().Configs = {
     LockFPSNow = true,
     WhiteScreen = false
 }
-_G.Key = "LuxuryV2_"
+_G.Key = "LuxuryV2_um8yc9i595pbwgq0g05c"
 _G.DiscordId = "950352396574412820"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NightsTimeZ/RoyryX/main/Loader.lua"))()
